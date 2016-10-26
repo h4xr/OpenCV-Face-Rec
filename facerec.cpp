@@ -109,7 +109,7 @@ int main(int argc, const char *argv[]) {
         //Show the image
         imshow("Face recognizer", original);
         //Display it
-        char key = (char) waitKey(20);
+        char key = (char) waitKey(0);
         if(key == 27)
             break;
     }
